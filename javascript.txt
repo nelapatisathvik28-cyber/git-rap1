@@ -1,0 +1,27 @@
+JAVASCRIPT CONCEPTS
+JS Variables
+JS Operators
+JS Arithmetic
+JS Assignment
+JS Comparisions
+JS Data Types{
+strings
+numbers
+boolean
+null
+undefined
+object
+bigint
+}
+ 
+
+Basics..
+1. JS Arrays
+2. JS Objects
+3. JS Functions
+4. JS If conditions
+5. JS Dates
+6. JS Events
+7. 
+
+
