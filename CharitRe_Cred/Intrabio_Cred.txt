@@ -1,0 +1,31 @@
+Microsoft Azure Login Creds:
+Username: intrabio_outlook.com#ext#@intrabiooutlook.onmicrosoft.com
+Password: vM12I4p@/f2f08p=
+
+Microsoft 365 Credentials:
+Username: IT_Support@intrabio.com
+Password: vM12I4p@/f2f08p=
+
+Username: testsharedmailbox@intrabio.com
+Password: L)184403128143uw
+
+EY Users Admin Creds for Virtual Machines:
+Username: itadmin
+Password: Intr@Test2024
+
+Zoom Admin Creds:
+Username:IT_Support@Intrabio.com
+Password: Intr@Bio2024
+
+Adobe Credentials:
+Username:IT_Support@Intrabio.com
+Password:Intr@Bio2024
+
+it_test@intrabio.com VM Credentials:
+Username:it-test@intrabio.com
+Password: Intr@Test2024
+
+AVD Web Client URL
+https://client.wvd.microsoft.com/arm/webclient/index.html
+client.wvd.microsoft.comclient.wvd.microsoft.com
+

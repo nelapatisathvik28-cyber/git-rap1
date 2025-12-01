@@ -1,0 +1,88 @@
+	car:any[]=[];
+
+constructor()
+{
+
+}
+ngOnInit(): void {
+  this.car.push(
+    {
+      carName: "volvo",
+      ModelNo: 21212,
+      contactDealer: 7894652311
+    },
+    {
+      carName: "maruti",
+      ModelNo: 456545,
+      contactDealer: 7894652321
+    },
+    {
+      carName: "suzuki",
+      ModelNo: 21212,
+      contactDealer: 7894652331
+    }
+  );
+}
+
+
+
+
+
+
+}
+------------------------------------------------
+@for (item of car; track $index) {
+
+<div class="container">
+    <label>contactno:{{item.contactno}}</label>
+
+</div>
+}
+
+
+
+
+
+--------------------------------------------------------------------------------------
+export class CarComponent implements OnInit,OnDestroy {
+
+car:any[]=[];
+
+constructor()
+{
+console.log('called 1')
+}
+
+ngOnInit(): void {
+this.push()
+console.log('called2')
+}
+
+ngOnDestroy(): void {
+  console.log('called 3')
+    }
+
+
+push()
+{
+  this.car.push(
+    {
+      carName: "volvo",
+      ModelNo: 21212,
+      contactDealer: 7894652311
+    },
+    {
+      carName: "maruti",
+      ModelNo: 456545,
+      contactDealer: 7894652321
+    },
+    {
+      carName: "suzuki",
+      ModelNo: 21212,
+      contactDealer: 7894652331
+    }
+  );
+}
+
+
+}

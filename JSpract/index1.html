@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h3>My To-Do List</h3>
+  <input id="task" placeholder="Add a task">
+  <button onclick="add()">Add</button>
+  <ul id="list"></ul>
+<link rel="stylesheet" href="till.css">
+  <script>
+    let taskss = JSON.parse(localStorage.taskss || "[]");
+
+    function add() {
+      if (task.value) {
+        taskss.push(task.value);
+        localStorage.taskss = JSON.stringify(taskss); 
+        task.value = "";
+        show();
+      }
+    }
+
+    function show() {
+      list.innerHTML = taskss.map((t,i)=>`<li onclick="del(${i})">${t}</li>`).join("");
+
+    }
+
+    function del(i) {
+      taskss.splice(i,1);
+      localStorage.taskss = JSON.stringify(taskss);
+
+      show();
+   
+    }
+
+
+    show();
+  </script>
+
+  <div>
+<h1 class="row"> &nbsp;&nbsp;&nbsp;  TODO APP  &nbsp;&nbsp;&nbsp;</h1>
+</body>
+</html>
+
+
+
+
+

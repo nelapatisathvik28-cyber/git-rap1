@@ -1,0 +1,16 @@
+ body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: black;
+      color: white;
+      font-size: 48px;
+      font-family: Arial, sans-serif;
+    }
+    #clock {
+  white-space: pre-line;
+  background-color:black;
+  color: whitesmoke;
+    }
